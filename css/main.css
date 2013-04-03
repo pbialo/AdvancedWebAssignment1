@@ -13,6 +13,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background-color: #efefef;
 }
 
 ::-moz-selection {
@@ -138,7 +139,9 @@ nav a:hover {
 
 .main aside {
     color: white;
-    padding: 0px 5% 10px;
+    padding: 0px 5% 1%;
+    font-size: 0.75em;
+    font-style: italic;
 }
 
 .footer-container footer {
@@ -234,7 +237,7 @@ nav a:hover {
 
     .main aside {
         float: right;
-        width: 28%;
+        width: 25%;
     }
 }
 
@@ -310,4 +313,11 @@ nav a:hover {
 
 .clearfix {
     *zoom: 1;
+}
+
+.tagline-image{
+	display: block;
+	padding: 5% 3% 5% 3%;
+	float: left;
+	text-align: center;
 }
